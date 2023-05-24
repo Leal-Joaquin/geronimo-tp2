@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    list-style: none;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.tienda {
+    margin-left: 30px;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+/* index */
+
+.ig {
+height: 30px;
+}
+.wpp{
+height: 30px;
+}
+.fb {
+    height: 30px;
+}
+a {
+    text-decoration: none;
+    margin-top: 50px;
+}
+.personas {
+    width: 1000px;
+    margin-left: 200px;
+
+}
+/* nosotros */
+.presentacion{
+    text-align: center;
+}
+.text-index {
+    margin-top: 50px;
+    text-align: center;
+}
+.foto-nosotros{
+  width: 400px;
+  }
+  .logo-2{
+    width: 100px;
+  }
+  .presentacion{
+    height: 80vh;
+    width: 85vh;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 20vw;
+  }
+  .ropa{
+    height: 80vh;
+    width: 85vh;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 20vw;
+  }
+  .camisetas{
+    height: 80vh;
+    width: 85vh;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 20vw;
+  }
+  .bg-img{
+    background-image: url(https://media.istockphoto.com/id/954319840/es/vector/textura-de-golf.jpg?s=170667a&w=0&k=20&c=uQIRh3_BA-CSMEwl_eYztgbsDkW2u2m7kxsgUbLIq9Q=);
+  }
+
+
+.foto-presentacion{
+    margin-left: 200px;
+    float: left;
+    margin-left: 10px;
+}
+/* productos */
+
+.tit-prod {
+    text-align: center;
+}
+.img-carousel {
+    margin-top: 100px;
+    border-radius: 100px;
+    width: 500px;
+}
+.caja-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.creador {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer a {
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+/* preguntas */
+
+.contacto{
+    margin-top: 30px;
+}
+
+header nav ul li {
+    display: inline;
+}
+.img-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    
+}
+.nombre{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.email{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.preguntanos{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.respuesta{
+    margin-top: 20px;
+}
+
+
+/* contacto */
+#contacto {
+    padding: 100px 15px;
+    background-color: white;
+    list-style-type: none;
+  }
+  
+  #contacto .titulo-seccion {
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+  .titulo-seccion {
+    font-family: 'Bruno Ace SC', cursive;
+    
+  }
+  
+  #contacto .contenedor-form {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  #contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+  }
+  
+  #contacto .contenedor-form .mitad {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #contacto .contenedor-form input,
+  #contacto .contenedor-form textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+  }
+  
+  #contacto .contenedor-form .mitad input {
+    width: 48%;
+  }
+  
+  #contacto .contenedor-form .input-full {
+    width: 100%;
+  }
+  
+  #contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: none;
+    text-decoration-color: #d3d3d3;
+    list-style-type: none;
+  }
+  
+  #contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 15px;
+  }
+  
+  #contacto .btn-enviar:hover {
+    background-color: black;
+    color: #fff;
+  }
+  .contactos {
+   list-style-type: none;
+    
+  }
+  .contacto_div {
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 768px) {
+    .presentacion{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      justify-content: center;
+      width: 50vh;
+    }
+    .camisetas{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      justify-content: center;
+      width: 50vh;
+      }
+      .ropa{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      justify-content: center;
+      width: 50vh;
+      }
+    }
+    
+  
